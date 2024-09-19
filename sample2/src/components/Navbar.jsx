@@ -7,9 +7,9 @@ const NavBar=({appname})=>
       
         return (
             
-            <div className=" w-full h-full flex flex-col last:bg-color-white justify-start items-start gap-3">
-        <div className="w-full h-full bg-[#4A6274] text-white flex flex-row justify-between items-between py-8">
-         <div className="font-bold text-2xl px-3">DARSINI C S</div> 
+            <div className=" w-full h-full flex flex-col bg-white justify-start items-start gap-3">
+        <div className="w-full h-full bg-[#1D2F3E] text-white flex flex-row justify-between items-between py-8">
+         <div className="font-bold text-2xl px-4">DARSINI C S</div> 
          <div>
             <ul className="text-2xl flex flex-row justify-center items-center font-bold gap-8 px-9 list-none">
                 <Link to={'/'}>
