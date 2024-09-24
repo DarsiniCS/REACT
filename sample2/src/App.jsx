@@ -1,7 +1,7 @@
 
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Profile from './pages/Profile';
-import Project from './pages/Project';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import WebLayout from "./layouts/WebLayout"
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
    <Routes>
       <Route element={<WebLayout />}>
      <Route path="/" element={<Profile/>}/>
-     <Route path="/projects" element={<Project/>}/>
+     <Route path="/projects" element={<Projects/>}/>
      <Route path="/contact" element={<Contact/>}/>
      </Route>
    </Routes>
